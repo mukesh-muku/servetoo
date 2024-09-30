@@ -1,0 +1,36 @@
+CRITICAL - 2024-09-27 08:51:50 --> View themes, no current section.
+in SYSTEMPATH/View/View.php on line 394.
+ 1 APPPATH/Views/content.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('content', [], true)
+ 5 APPPATH/Controllers/Login.php(30): view('content', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2024-09-27 08:52:04 --> View themes, no current section.
+in SYSTEMPATH/View/View.php on line 394.
+ 1 APPPATH/Views/content.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('content', [], true)
+ 5 APPPATH/Controllers/Login.php(30): view('content', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2024-09-27 08:52:07 --> View themes, no current section.
+in SYSTEMPATH/View/View.php on line 394.
+ 1 APPPATH/Views/content.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/content.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('content', [], true)
+ 5 APPPATH/Controllers/Login.php(30): view('content', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Login->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
